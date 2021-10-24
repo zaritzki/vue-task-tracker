@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style scope>
-.fas {
+.fas.fa-times {
   color: red;
 }
 .task {
