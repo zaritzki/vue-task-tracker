@@ -8,6 +8,12 @@ simple task tracker with fake API using json-server
 npm install
 ```
 
+### To run the fake API - json-server
+
+```
+npm run backend
+```
+
 ### Compiles and hot-reloads for development
 
 ```
