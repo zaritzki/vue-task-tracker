@@ -41,7 +41,7 @@ export default {
       }
 
       const newTask = {
-        id: Math.floor(Math.random() * 100000),
+        // id: Math.floor(Math.random() * 100000),
         title: this.title,
         day: this.day,
         reminder: this.reminder,
