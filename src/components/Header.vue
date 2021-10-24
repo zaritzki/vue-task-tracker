@@ -1,7 +1,11 @@
 <template>
   <header>
     <h1>{{ title }}</h1>
-    <Button text="Add Tasks" color="green" />
+    <Button
+      @btn-click="$emit('toggle-add-task')"
+      :text="btnLabel ? 'Close' : 'Add Tasks'"
+      :color="btnLabel ? 'darkred' : 'green'"
+    />
   </header>
 </template>
 
@@ -15,6 +19,7 @@ export default {
   },
   props: {
     title: String,
+    btnLabel: Boolean,
   },
 }
 </script>
